@@ -3,7 +3,7 @@
 
 int main() {
 
-	printf("The world is a vampire.\n");
+	printf("Hola Mundo.\n");
 
 	return EXIT_SUCCESS;
 }
