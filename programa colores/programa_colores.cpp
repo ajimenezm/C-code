@@ -4,6 +4,7 @@
 int main(){
 	int verde,azul,rojo;
 
+	printf("Antes de comenzar he de decir que para decir que SI hay que poner un 1, sino, hay que poner un 0.\n");
 	printf("¿Tienes color verde?\n");
 	scanf(" %i",&verde);
 
