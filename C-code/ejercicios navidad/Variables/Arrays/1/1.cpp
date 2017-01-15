@@ -3,16 +3,11 @@
 
 int main(){
 
-	int x,tabla[10];
+	int lista[10];
 
-	for(x=1;x<=10;x++){
-
-	tabla[x]=x;
-	}
-
-	for(x=1;x<=10;x++){
-
-	printf(" %i \n",tabla[x]);
+	for(int i=0;i<10;i++){
+		lista[i]=i+1;
+		printf(" %i \n",lista[i]);
 	}
 
 	return EXIT_SUCCESS;

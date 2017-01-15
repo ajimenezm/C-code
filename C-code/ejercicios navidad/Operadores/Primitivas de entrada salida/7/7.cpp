@@ -3,10 +3,10 @@
 
 int main(){
 
-char nombre[10];
+	int numero;
 
-	printf("¿Cuál es tu nombre?\n");
-	scanf(" %s", &nombre);
+	printf("Dime tu número favorito: \n");
+	scanf(" %i",&numero);
 
 	return EXIT_SUCCESS;
 }

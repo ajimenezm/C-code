@@ -3,10 +3,10 @@
 
 int main(){
 
-char nombre[10];
+	char nombre[15];
 
-	printf("¿Cuál es tu nombre?\n");
-	scanf(" %s", &nombre);
+	printf("Dime tu nombre: \n");
+	scanf(" %s",nombre);
 
 	return EXIT_SUCCESS;
 }

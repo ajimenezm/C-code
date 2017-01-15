@@ -6,7 +6,7 @@ int main(){
 	int num,cont,x;
 
        	printf("Introduzca número: ");
-	scanf("%d",&num);
+	scanf("%i",&num);
 
 	cont=0;
 

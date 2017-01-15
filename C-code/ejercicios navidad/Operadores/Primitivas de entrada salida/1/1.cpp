@@ -3,10 +3,8 @@
 
 int main(){
 
-char nombre[10];
-
-	printf("¿Cuál es tu nombre?\n");
-	scanf(" %s", &nombre);
+	for(int i=0;i<256;i++)
+		printf(" %i %c \n",i,i);
 
 	return EXIT_SUCCESS;
 }

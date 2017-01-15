@@ -3,16 +3,16 @@
 
 int main(){
 
-	int numero,x;
+	int numero;
 	double suma=0;
-
-	for(x=1;x<=10;x++){
+	double media;
+	for(int i=0;i<10;i++){
 
 		printf("Dame un numero: \n");
 		scanf(" %i",&numero);
 		suma=suma+numero;
 	}
-
-	printf("La media es: %i \n",suma/10);
+	media=suma/10;
+	printf("La media es: %.2lf \n",media);
 	return EXIT_SUCCESS;
 }

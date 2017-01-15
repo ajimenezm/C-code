@@ -3,10 +3,9 @@
 
 int main(){
 
-char nombre[10];
+	char lista[]="hola hola";
 
-	printf("¿Cuál es tu nombre?\n");
-	scanf(" %s", &nombre);
+	printf("%s \n",lista);
 
 	return EXIT_SUCCESS;
 }
